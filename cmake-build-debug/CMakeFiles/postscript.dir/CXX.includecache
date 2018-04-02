@@ -1,0 +1,42 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/yan/postscript/main.cpp
+iostream
+-
+string.h
+-
+fstream
+-
+stdio.h
+-
+postscript.hh
+/Users/yan/postscript/postscript.hh
+
+/Users/yan/postscript/postscript.cpp
+iostream
+-
+string.h
+-
+fstream
+-
+stdio.h
+-
+postscript.hh
+/Users/yan/postscript/postscript.hh
+
+/Users/yan/postscript/postscript.hh
+iostream
+-
+string.h
+-
+fstream
+-
+stdio.h
+-
+
